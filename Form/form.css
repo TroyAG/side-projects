@@ -1,0 +1,133 @@
+
+body {
+    width: 100wh;
+    height: 90vh;
+    color: #fff;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 100% 200%;
+  font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  
+  @-webkit-keyframes Gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  @-moz-keyframes Gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  @keyframes Gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  h1 {
+    font-family: "Open Sans";
+    font-weight: 300;
+    text-align: center;
+    position: absolute;
+    top: 2%;
+    right: 0;
+    left: 0;
+  }
+  p {
+    font-size: 24px;
+    font-family: "Open Sans";
+    font-weight: 300;
+    text-align: center;
+    position: absolute;
+    top: 3em;
+    right: 0;
+    left: 0;
+  }
+  #white-box {
+    width: 60%;
+    height: 63em;
+    margin-left: 20%;
+    margin-top: 3%;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 1%;
+    background-color: rgb(68, 68, 68);
+    background-color: #eed;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 1.6);
+    -moz-box-shadow: 0 0 40px rgba(0, 0, 0, 1.6);
+    -webkit-box-shadow: 0 0 40px rgba(0, 0, 1, 0.6);
+    -o-box-shadow: 0 0 40px rgba(0, 0, 0, 1.6);
+    filter: progid:DXImageTransform.Microsoft.Blur(
+        PixelRadius=3,
+        MakeShadow=true,
+        ShadowOpacity=0.30
+      );
+    -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
+    zoom: 1;
+    position: relative; 
+    padding: 100px;
+    background-color: #ddd;
+  }
+  @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,600,800,900');
+  body{ font-family: 'Work Sans', sans-serif; font-size: 14px; line-height: 1.5;}
+  .wd10 { width: 10%;} .wd20 { width: 20%;} .wd30 { width: 30%;}
+  .wd40 { width: 40%;} .wd50 { width: 50%;} .wd60 { width: 60%;}
+  .wd70 { width: 70%;} .wd80 { width: 80%;} .wd90 { width: 90%;} .wd100 { width: 100%;}
+  .wd10, .wd10, .wd20, .wd30, .wd40, .wd50, .wd60, .wd70, .wd80, .wd90, .wd100 { display: inline-block;} 
+  .col50 { width: 49%;}
+  .col50.colleft { float: left;}
+  .col50.colright { float: right;}
+  .col50 .wd50 { width: 100%; float: left;}
+  .col50 .col50 { width: 48%;}
+  .fL { float: left !important;} .fR { float: right !important;}
+  .underline { text-decoration: underline;}
+  .op9 { opacity: .9;} .op8 { opacity: .8;} .op7 { opacity: .7;} .op6 { opacity: .6;} 
+  .op5 { opacity: .5;} .op4 { opacity: .4;} .op3 { opacity: .3;} .op2 { opacity: .2;}
+  .op1 { opacity: .1;}
+  .nodrop {cursor: no-drop;}
+  
+  .contact h3 { display:block; font-size: 16px;}
+  .contact p { margin: 5px 0;}
+  
+  textarea { font-family: 'Work Sans', sans-serif;}
+  .contact input[type="text"], .contact input[type="email"], .contact input[type="tel"], .contact input[type="url"], .contact select, .contact textarea { width: 100%; border: 1px solid #CCC; background: #FFF; margin: 0 0 5px; line-height: 32px; padding: 0; text-indent: 8px;}
+  .contact select { padding: 7px; text-indent: 0;}
+  .contact input[type="text"]:hover, .contact input[type="email"]:hover, .contact input[type="tel"]:hover, .contact input[type="url"]:hover, .contact textarea:hover { -webkit-transition: border-color 0.3s ease-in-out; -moz-transition: border-color 0.3s ease-in-out; transition: border-color 0.3s ease-in-out; border-color: #373737;}
+  .contact textarea { max-height: 120px; min-height: 80px; min-width: 100%; max-width: 100%;}
+  .contact button[type="submit"] { cursor: pointer; width: 100%; border: none; background: #0CF; color: #FFF; margin: 0 0 5px; padding: 10px; font-size: 15px;}
+  .contact button[type="submit"]:hover { background: #09C; -webkit-transition: background 0.3s ease-in-out; -moz-transition: background 0.3s ease-in-out; transition: background-color 0.3s ease-in-out;}
+  .contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+  .contact input:focus, .contact textarea:focus { outline:0; border:1px solid #999;}
+  ::-webkit-input-placeholder { color:#888;}
+  :-moz-placeholder { color:#888;}
+  ::-moz-placeholder { color:#888;}
+  :-ms-input-placeholder { color:#888;}
+  @media (max-width: 640px) { 
+      label { font-size: 12px;}
+      .col50 .col50 { width: 100%;}
+  }
